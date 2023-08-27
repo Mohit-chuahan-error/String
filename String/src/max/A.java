@@ -28,7 +28,7 @@ public class A {
     }
 
     public static void main(String[] args) {
-        String str = "Hello World!";
+        String str = "Hello World Arbbaabb!";
         char firstNonRepeatingChar = findFirstNonRepeatingCharacter(str);
         if (firstNonRepeatingChar != '\0') {
             System.out.println("First non-repeating character: " + firstNonRepeatingChar); // Output: First non-repeating character: H
@@ -36,7 +36,5 @@ public class A {
             System.out.println("No non-repeating character found.");
         }
     }
-
-
 }
 
